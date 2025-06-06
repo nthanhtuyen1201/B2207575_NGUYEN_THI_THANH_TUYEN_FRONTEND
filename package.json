@@ -1,20 +1,23 @@
 {
   "name": "contactbook-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon server.js"
   },
-  "author": "Nguyen Thi Thanh Tuyen",
+  "author": "Khanh Dao",
   "license": "ISC",
-  "description": "entry point: (index.js) server.js",
+  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0"
   },
   "devDependencies": {
+    "@eslint/js": "^9.27.0",
     "eslint": "^9.27.0",
     "eslint-config-prettier": "^10.1.5",
+    "globals": "^16.1.0",
     "nodemon": "^3.1.10",
     "prettier": "^3.5.3"
   }
