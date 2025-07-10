@@ -4,7 +4,7 @@
 
     <ContactForm @submit:contact="createContact" />
 
-    <p>((message)}</p>
+    <p>{{ message }}</p>
   </div>
 </template>
 
@@ -41,5 +41,5 @@ export default {
 </script>
 
 <style scoped>
-@tnport "@/assets/form.css";
+@import "@/assets/form.css";
 </style>
